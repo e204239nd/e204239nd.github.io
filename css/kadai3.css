@@ -1,0 +1,25 @@
+h1 {
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    color:darkgreen;
+    background-color: palegreen;
+    text-align: center;
+}
+
+h3 {
+    color:mediumslateblue
+}
+
+p  {
+        color: saddlebrown;
+}
+
+body {
+    margin:0;
+    background-image: url(../images/back3.jpg);
+}
+
