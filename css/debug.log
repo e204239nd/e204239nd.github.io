@@ -1,0 +1,2 @@
+[1113/133647.967:ERROR:directory_reader_win.cc(43)] FindFirstFile: 指定されたパスが見つかりません。 (0x3)
+[1113/134906.217:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0

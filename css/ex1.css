@@ -1,0 +1,38 @@
+h1 {
+    color: palevioletred;
+    background-color: royalblue;
+    text-align: center;
+}
+
+table {
+    background-color: aquamarine;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: palegreen;
+    text-align: center;
+}
+
+h3 {
+    color: mediumslateblue
+}
+
+p {
+    color: saddlebrown;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/bush.png);
+}
+
+ol {
+    background-image: url(../images/back4.png);
+}
+
+img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
