@@ -1,0 +1,33 @@
+.bluecolor {
+  color: blue;
+}
+
+body {
+  background-image: url(../images/back3.jpg);
+}
+
+h1 {
+  text-align: center;
+  background-color: forestgreen;
+  color: darkmagenta
+}
+
+h1#nonaka {
+
+  background-color: black;
+  color: deepskyblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2.hob1 {
+  background-color: darkseagreen;
+  color: orangered;
+}
+
+h2.hob2 {
+  background-color: darkred;
+  color: whitesmoke;
+}
