@@ -7,19 +7,21 @@
 
 body {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   background-color: #f6f6f6;
   font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", serif;
   font-size: 14px;
+}
+
+.wrap {
+  overflow: hidden;
 }
 
 a {
   text-decoration: none
 }
 
-p {
-  font-size: 15px
-}
+
 
 blockquote {
   position: relative;
@@ -89,19 +91,50 @@ blockquote cite {
   font-size: 0.9em
 }
 
-.content-width,
-.header__inner,
-.footer__inner {
-  margin: 0 auto;
-  max-width: 1000px
+@media screen and (min-width:768px) {
+
+  .content-width,
+  .header__inner,
+  .footer__inner {
+    margin: 0 auto;
+  }
+
+  .content {
+    margin: 30px auto;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width:1040px) {
+
+  .content-width,
+  .header__inner,
+  .footer__inner {
+    width: 1000px
+  }
+
+  .content {
+    width: 910px;
+  }
+
+  p {
+    font-size: 14px
+  }
 }
 
 .header {
   background-color: darkred;
   margin-bottom: 20px;
   color: white;
-  width: 100%
+  width: 100%;
 }
+
 
 .header a {
   color: inherit;
@@ -124,7 +157,7 @@ blockquote cite {
 
 .header__nav {
   margin: 0 35px 0 auto;
-  align-self: flex-end
+  align-self: flex-end;
 }
 
 .header__ul {
@@ -172,12 +205,9 @@ blockquote cite {
   text-align: center
 }
 
-.content {
-  margin: 30px auto;
-  max-width: 910px;
-  padding: 10px;
-  background: white
-}
+
+
+
 
 .section {
   margin-bottom: 30px;
