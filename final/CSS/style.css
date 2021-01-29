@@ -93,7 +93,7 @@ blockquote cite {
 .header__inner,
 .footer__inner {
   margin: 0 auto;
-  width: 1000px
+  max-width: 1000px
 }
 
 .header {
@@ -174,7 +174,7 @@ blockquote cite {
 
 .content {
   margin: 30px auto;
-  width: 910px;
+  max-width: 910px;
   padding: 10px;
   background: white
 }
